@@ -16,6 +16,7 @@ useSupportedLanguages(
 useEffect(()=>{
     getSupportedLanguages(
     )
+    // eslint-disable-next-line react-hooks/exhaustive-deps
 },[])
 if(isLoading){
     return(
